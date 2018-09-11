@@ -1,0 +1,33 @@
+{
+	"compilerOptions": {
+		"jsx": "react",
+		"target": "es5",
+		"module": "esnext",
+		"moduleResolution": "node",
+		"sourceMap": true,
+		"noImplicitAny": false,
+		"suppressImplicitAnyIndexErrors": true,
+		"baseUrl": ".",
+		"outDir": "build/dist",
+		"allowJs": true,
+		"rootDir": "src",
+		"forceConsistentCasingInFileNames": true,
+		"noImplicitReturns": true,
+		"noImplicitThis": true,
+		"strictNullChecks": true,
+		"noUnusedLocals": true,
+		"allowSyntheticDefaultImports": true,
+		"strict": true,
+		"lib": ["es2015", "es2017", "dom"],
+		"typeRoots": ["node_modules/@types"]
+	},
+	"exclude": [
+		"node_modules",
+		"build",
+		"scripts",
+		"acceptance-tests",
+		"webpack",
+		"jest",
+		"src/setupTests.ts"
+	]
+}
